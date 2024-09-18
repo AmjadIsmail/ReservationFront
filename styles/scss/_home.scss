@@ -1396,6 +1396,11 @@ section .black-layer:before {
   z-index: 1;
   top: 0;
 
+  h2,
+  h3 {
+    color: $white;
+  }
+
   .cloud {
     background-image: url("/images/cloud.png");
     background-size: cover;
@@ -1578,12 +1583,18 @@ section .black-layer:before {
 .offersHome {
   background: url("/images/bg.jpg") no-repeat;
   position: relative;
+  background-size: cover;
+
   .cloud {
     background-image: url("/images/cloud.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     display: block;
+  }
+
+  h2 {
+    color: $white;
   }
 
   .ohBox {
@@ -1801,6 +1812,10 @@ section .black-layer:before {
     background-position: center center;
     background-repeat: no-repeat;
     display: block;
+  }
+
+  h2 {
+    color: $white;
   }
 
   .placeImg {
