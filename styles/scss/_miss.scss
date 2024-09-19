@@ -224,10 +224,10 @@ a {
   }
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
+// img {
+//   width: 100%;
+//   height: auto;
+// }
 
 @for $i from 1 through 200 {
   .p#{$i} {
