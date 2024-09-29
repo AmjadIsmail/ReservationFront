@@ -24,6 +24,16 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/flight-confirmation": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/flight-confirmation.js"
+    ],
+    "/flight-payment": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/flight-payment.js"
+    ],
     "/search-result": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
