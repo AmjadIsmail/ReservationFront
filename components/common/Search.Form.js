@@ -142,7 +142,7 @@ const SearchForm = (props) => {
             {props.showLabel && <Label>departure date</Label>}
             <div className="inputGroup">
               <DatePicker
-                className=" px12 form-control rounded-0"
+                className="px12 form-control rounded-0"
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
@@ -156,7 +156,7 @@ const SearchForm = (props) => {
             {props.showLabel && <Label>return date</Label>}
             <div className="inputGroup">
               <DatePicker
-                className=" px12 form-control rounded-0"
+                className="px12 form-control rounded-0"
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
